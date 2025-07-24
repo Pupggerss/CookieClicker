@@ -1,17 +1,15 @@
 {
   "name": "pup/cookieclicker",
   "description": "Cookie Clicker in pocketmine :D",
-  "minimum-stability": "stable",
-  "authors": [
-    {
-      "name": "pupggers",
-      "email": "pupggers@gmail.com"
-    }
-  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
-    "pocketmine/pocketmine-mp": "5.31.0",
+    "pocketmine/pocketmine-mp": "^5.31.0",
     "muqsit/simple-packet-handler": "dev-pm5",
     "muqsit/invmenu": "dev-pm5-delay-rework"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "@stable"
   },
   "autoload": {
     "classmap": [
