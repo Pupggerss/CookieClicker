@@ -1,12 +1,13 @@
 {
   "name": "pup/cookieclicker",
-  "description": "Cookie Clicker in pocketmine :D",
-  "prefer-stable": true,
   "require": {
-    "pocketmine/pocketmine-mp": "^5.31.0",
-    "muqsit/simple-packet-handler": "dev-pm5",
-    "muqsit/invmenu": "dev-pm5-delay-rework"
+    "sof3/libasynql": "^4.2.2",
+    "pocketmine/pocketmine-mp": "^5.0.0",
+    "muqsit/invmenu": "dev-pm5-delay-rework",
+    "muqsit/simple-packet-handler": "dev-pm5"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "autoload": {
     "classmap": [
       "src"
